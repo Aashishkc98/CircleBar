@@ -1,0 +1,6 @@
+framework module Pods_CircleTabBar {
+  umbrella header "Pods-CircleTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

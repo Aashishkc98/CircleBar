@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD1742A5A93F406DF016C8425C6888C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CCE43A9C0B6AAB932CA7400616B867D /* CircleBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000E94EF0B139DB67820966343AC1A1 /* CircleBar-dummy.m */; };
+		8DF138727CEB23EAACEC47FA8D29E7BE /* Pods-CircleTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB39B743ECB4DB05147F14271D8FED3 /* Pods-CircleTabBar-dummy.m */; };
+		DF378D1ABACF355BD352F447B3BB210D /* CircleBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596B0D59E5C4C759A2A7CC1FA9FE15D0 /* CircleBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E10D3962E87839AF5F884A8990432F39 /* Pods-CircleTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74216B72DF10991F058E0857823EA84F /* Pods-CircleTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5A46A55511253DC3185BB44A375FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F7AE75D23C11A1220C5A7AEB70B06B0C /* SHCircleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC35539E76904904D4F53EE44D574AE /* SHCircleBarController.swift */; };
+		FF7F5D61C7E342DB4EEA1FC67B7F96A4 /* SHCircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69BEFF2FCE2737A29DBC9EAADD7A55E /* SHCircleBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CDB5B54F406776EED686DAB31D98F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7378E43393E401083784252E88810C0;
+			remoteInfo = CircleBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F5D08B69776E8E7E002CE87C387D8B /* Pods-CircleTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9E7CD2838FD9C4919640A68565036C /* CircleBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleBar-Info.plist"; sourceTree = "<group>"; };
+		1556F6A2276A2B0E03752C6BE696BED4 /* CircleBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-prefix.pch"; sourceTree = "<group>"; };
+		2685F86EDEEEBE6463E7038A00348E0D /* Pods-CircleTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircleTabBar.modulemap"; sourceTree = "<group>"; };
+		3000E94EF0B139DB67820966343AC1A1 /* CircleBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleBar-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F0E9C445A1523D94EE7E5C6DB6B3991 /* Pods-CircleTabBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleTabBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleBar.framework; path = CircleBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B0D59E5C4C759A2A7CC1FA9FE15D0 /* CircleBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleBar-umbrella.h"; sourceTree = "<group>"; };
+		74216B72DF10991F058E0857823EA84F /* Pods-CircleTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleTabBar-umbrella.h"; sourceTree = "<group>"; };
+		779406E4A446D4233AADCC66B79E16FB /* CircleBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleBar.modulemap; sourceTree = "<group>"; };
+		8DB39B743ECB4DB05147F14271D8FED3 /* Pods-CircleTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleTabBar-dummy.m"; sourceTree = "<group>"; };
+		9B1B0FDE011EEF0026CE24B5D7ADBB4A /* Pods-CircleTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B69BEFF2FCE2737A29DBC9EAADD7A55E /* SHCircleBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBar.swift; path = CircleBar/Classes/SHCircleBar.swift; sourceTree = "<group>"; };
+		B8AB4D6FE42589D6CAFEA2B28FE59DC1 /* Pods-CircleTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleTabBar-Info.plist"; sourceTree = "<group>"; };
+		C1DF6D73FB8E80367184FA8B4303A1D6 /* Pods-CircleTabBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleTabBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4491023FBC96513B1F7C5E60BA94081 /* CircleBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleBar.xcconfig; sourceTree = "<group>"; };
+		CFC35539E76904904D4F53EE44D574AE /* SHCircleBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCircleBarController.swift; path = CircleBar/Classes/SHCircleBarController.swift; sourceTree = "<group>"; };
+		DD21502FC7911B6B2A89F1B2A29614EB /* Pods_CircleTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CircleTabBar.framework; path = "Pods-CircleTabBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CB76BA801D49D38B9D492413083E0D /* Pods-CircleTabBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleTabBar-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE591A5AC238CEA3B9730F9B0B5CBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD1742A5A93F406DF016C8425C6888C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1736D75CE483248EA7603AAABB849B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5A46A55511253DC3185BB44A375FEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27ED48F7D79BB3BBB6197F81D7CAB4A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				779406E4A446D4233AADCC66B79E16FB /* CircleBar.modulemap */,
+				C4491023FBC96513B1F7C5E60BA94081 /* CircleBar.xcconfig */,
+				3000E94EF0B139DB67820966343AC1A1 /* CircleBar-dummy.m */,
+				0E9E7CD2838FD9C4919640A68565036C /* CircleBar-Info.plist */,
+				1556F6A2276A2B0E03752C6BE696BED4 /* CircleBar-prefix.pch */,
+				596B0D59E5C4C759A2A7CC1FA9FE15D0 /* CircleBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleBar";
+			sourceTree = "<group>";
+		};
+		3A094562605D58AB8CAB7A25D2BDA42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */,
+				DD21502FC7911B6B2A89F1B2A29614EB /* Pods_CircleTabBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59293AD499A63641174E9141AF8D40C3 /* Pods-CircleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2685F86EDEEEBE6463E7038A00348E0D /* Pods-CircleTabBar.modulemap */,
+				C1DF6D73FB8E80367184FA8B4303A1D6 /* Pods-CircleTabBar-acknowledgements.markdown */,
+				3F0E9C445A1523D94EE7E5C6DB6B3991 /* Pods-CircleTabBar-acknowledgements.plist */,
+				8DB39B743ECB4DB05147F14271D8FED3 /* Pods-CircleTabBar-dummy.m */,
+				E3CB76BA801D49D38B9D492413083E0D /* Pods-CircleTabBar-frameworks.sh */,
+				B8AB4D6FE42589D6CAFEA2B28FE59DC1 /* Pods-CircleTabBar-Info.plist */,
+				74216B72DF10991F058E0857823EA84F /* Pods-CircleTabBar-umbrella.h */,
+				04F5D08B69776E8E7E002CE87C387D8B /* Pods-CircleTabBar.debug.xcconfig */,
+				9B1B0FDE011EEF0026CE24B5D7ADBB4A /* Pods-CircleTabBar.release.xcconfig */,
+			);
+			name = "Pods-CircleTabBar";
+			path = "Target Support Files/Pods-CircleTabBar";
+			sourceTree = "<group>";
+		};
+		6816B46737B4BBC41BB9E857506FE3BC /* CircleBar */ = {
+			isa = PBXGroup;
+			children = (
+				B69BEFF2FCE2737A29DBC9EAADD7A55E /* SHCircleBar.swift */,
+				CFC35539E76904904D4F53EE44D574AE /* SHCircleBarController.swift */,
+				27ED48F7D79BB3BBB6197F81D7CAB4A1 /* Support Files */,
+			);
+			name = CircleBar;
+			path = CircleBar;
+			sourceTree = "<group>";
+		};
+		ACEEBF83C7BD3FCB3BE04C6FCBA94CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6816B46737B4BBC41BB9E857506FE3BC /* CircleBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ACEEBF83C7BD3FCB3BE04C6FCBA94CAA /* Pods */,
+				3A094562605D58AB8CAB7A25D2BDA42E /* Products */,
+				DC23EA76CCDEB2AF9A3FB22EB85BDC44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC23EA76CCDEB2AF9A3FB22EB85BDC44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59293AD499A63641174E9141AF8D40C3 /* Pods-CircleTabBar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0210339FD751A2ED57622D10EFDBDFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10D3962E87839AF5F884A8990432F39 /* Pods-CircleTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221336D41DE40039675DB1613D4CDADA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF378D1ABACF355BD352F447B3BB210D /* CircleBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7378E43393E401083784252E88810C0 /* CircleBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6E0DC73A4DFBF30C70A7DFE2707E71 /* Build configuration list for PBXNativeTarget "CircleBar" */;
+			buildPhases = (
+				221336D41DE40039675DB1613D4CDADA /* Headers */,
+				113BE18E3C3AD654CD3B1EAF0D3496EE /* Sources */,
+				E1736D75CE483248EA7603AAABB849B9 /* Frameworks */,
+				7FB422C6E795506AAD6CA282CAA2D116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleBar;
+			productName = CircleBar;
+			productReference = 43697E92E1EF903807158F32D260C4DC /* CircleBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0CC05DE46C62005522E31438DDC30A2 /* Pods-CircleTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9591517159C0456226F82273D98EC207 /* Build configuration list for PBXNativeTarget "Pods-CircleTabBar" */;
+			buildPhases = (
+				0210339FD751A2ED57622D10EFDBDFC5 /* Headers */,
+				3F06D79C60DC264488D1428E2242214D /* Sources */,
+				2BE591A5AC238CEA3B9730F9B0B5CBC8 /* Frameworks */,
+				B89A44D29E8744773F0C9B3049F985D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7634CEAD7FB05D103A1DCE696FEA50DC /* PBXTargetDependency */,
+			);
+			name = "Pods-CircleTabBar";
+			productName = "Pods-CircleTabBar";
+			productReference = DD21502FC7911B6B2A89F1B2A29614EB /* Pods_CircleTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A094562605D58AB8CAB7A25D2BDA42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7378E43393E401083784252E88810C0 /* CircleBar */,
+				E0CC05DE46C62005522E31438DDC30A2 /* Pods-CircleTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB422C6E795506AAD6CA282CAA2D116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89A44D29E8744773F0C9B3049F985D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113BE18E3C3AD654CD3B1EAF0D3496EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE43A9C0B6AAB932CA7400616B867D /* CircleBar-dummy.m in Sources */,
+				FF7F5D61C7E342DB4EEA1FC67B7F96A4 /* SHCircleBar.swift in Sources */,
+				F7AE75D23C11A1220C5A7AEB70B06B0C /* SHCircleBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F06D79C60DC264488D1428E2242214D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF138727CEB23EAACEC47FA8D29E7BE /* Pods-CircleTabBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7634CEAD7FB05D103A1DCE696FEA50DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleBar;
+			target = B7378E43393E401083784252E88810C0 /* CircleBar */;
+			targetProxy = 7CDB5B54F406776EED686DAB31D98F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3611EF45293DAB1E7B1C62058F3FCC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4491023FBC96513B1F7C5E60BA94081 /* CircleBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleBar/CircleBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleBar/CircleBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleBar/CircleBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleBar;
+				PRODUCT_NAME = CircleBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38810129978F52E5ABFCADD7BC1F3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1B0FDE011EEF0026CE24B5D7ADBB4A /* Pods-CircleTabBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleTabBar/Pods-CircleTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleTabBar/Pods-CircleTabBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D26E77158EE465B9E8996C51C63B50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4491023FBC96513B1F7C5E60BA94081 /* CircleBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleBar/CircleBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleBar/CircleBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleBar/CircleBar.modulemap";
+				PRODUCT_MODULE_NAME = CircleBar;
+				PRODUCT_NAME = CircleBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDBCFB907FC8A598599164B2FE41A0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F5D08B69776E8E7E002CE87C387D8B /* Pods-CircleTabBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CircleTabBar/Pods-CircleTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CircleTabBar/Pods-CircleTabBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D6E0DC73A4DFBF30C70A7DFE2707E71 /* Build configuration list for PBXNativeTarget "CircleBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3611EF45293DAB1E7B1C62058F3FCC79 /* Debug */,
+				8D26E77158EE465B9E8996C51C63B50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9591517159C0456226F82273D98EC207 /* Build configuration list for PBXNativeTarget "Pods-CircleTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBCFB907FC8A598599164B2FE41A0B1 /* Debug */,
+				38810129978F52E5ABFCADD7BC1F3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
